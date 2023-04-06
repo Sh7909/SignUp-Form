@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+#main{
+    background-color: rgba(164, 215, 250, 0.713);
+    border-radius:1rem;
+    height:95rem;
+    width:30rem;
+    padding:3rem;
+    margin-left:30rem;
+}
+#SignUp{
+    text-align: center;
+}
+#Username,#Password,#Confirmpassword,#Fullname,#favcolor,select{
+    width:25rem;
+    border-radius:0.3rem;
+    height:2rem;
+    border:none;
+}
+#usernameerror,#passworderror,#confirmpassworderror,#nomatch,#passporterror,#Monthlynewslettererror,#tncerror{
+    color:red;
+    display:none;
+}
+label,#passport-yes,#passport-no,#Monthlynewsletterss,#tnc,#nomatch,#passporterror,#Monthlynewslettererror,#tncerror{
+    font-weight: bold;
+}
+#form-status{
+    display:none;
+}
+textarea{
+    padding-top:0.7rem;
+    padding-left:0.5rem;
+    border-radius:0.5rem;
+    border:none;
+}
+#signup{
+    background-color: rgb(72, 13, 13);
+    color:white;
+    width:7rem;
+    height:3rem;
+    border-radius:0.5rem;
+    font-size:1.1rem;
+}
+#sign-up{
+    text-align: center;
+}

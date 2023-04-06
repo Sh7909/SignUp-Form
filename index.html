@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <main>
+        <form>
+            <div id="main">
+                <div id="SignUp">
+                    <h1>Sign Up Form</h1>
+                </div>
+                <br><br>
+                <div id="username">
+                    <label for="username">Username</label><br>
+                    <input type="text" id="Username" />
+                </div>
+
+                <div id="usernameerror"></div> <br><br>
+
+                <div id="password">
+                    <label for="password">Password</label><br>
+                    <input type="password" id="Password" />
+                </div>
+
+                <div id="passworderror"></div> <br><br>
+
+                <div id="confirmpassword">
+                    <label for="confirmpassword">Confirm Password</label><br>
+                    <input type="password" id="Confirmpassword" />
+                </div>
+                <div id="confirmpassworderror"></div> <br><br>
+
+                <div id="country">
+                    <label for="country">Country</label><br>
+                    <select id="selectcountry">
+                        <option value="0">Select Country</option>
+                    </select>
+                </div>
+                <div id="countryerror"></div><br><br>
+
+                <div id="fullname">
+                    <label for="fullname">Full Name</label><br>
+                    <input type="text" id="Fullname" />
+                </div>
+                <div id="fullnameerror"></div> <br><br>
+
+                <div id="Faavcolor">
+                    <label for="favcolor">What is your favourite color? <span
+                            style="color:gray;">(Optional)</span></label><br>
+                    <input type="text" id="favcolor" />
+                </div>
+                <br><br>
+                <div id="Passportdiv">
+                    <label for="passport">Do you have Passport?</label><br>
+                    <div id="passport-yes"><input type="radio" name="Passport">Yes</div>
+                    <div id="passport-no"><input type="radio" name="Passport">No</div>
+                </div>
+                <div id="passporterror"></div> <br><br>
+
+                <br><br>
+                <div id="addressarea">
+                    <label for="address">Address</label><br>
+                    <textarea id="Addressarea" cols="57" rows="10"></textarea>
+                </div>
+                <div id="addresserror"></div> <br><br>
+                <div id="monthlynewsletter">
+                    <div id="Monthlynewsletterss">
+                        <input type="checkbox" id="Monthlynewsletter" name="check">Send me Monthly Newsletter
+                    </div>
+                    <div id="Monthlynewslettererror"></div> <br><br>
+                    <div id="tnc">
+                        <input type="checkbox" id="Tnc" name="check">I have read and accept the Terms &
+                        Conditions.
+                    </div>
+                    <div id="tncerror"></div> <br><br>
+                </div><br><br>
+                <div id="nomatch"></div>
+                <br><br>
+
+                <div id="sign-up">
+                    <input type="text" id="form-status" />
+                    <button type="button" id="signup">Sign Up</button>
+                </div>
+            </div>
+        </form>
+    </main>
+    <script src="./countries.js" type="module"></script>
+    <script src="./index.js" type="module"></script>
+    <script src="./util/validate.js" type="module"></script>
+</body>
+
+</html>
